@@ -1,0 +1,44 @@
+*{
+  
+}
+
+.container img{
+  width: 19rem;
+  margin-left: 21rem;
+  margin-top: 4rem;
+}
+.container input{
+  width: 23rem;
+  height: 5vh;
+  border-radius:0.6rem;
+  position: absolute;
+  margin-left: 20rem;
+  margin-top: 10px;
+  text-align: center;
+  font-style: oblique;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color:black;
+}
+.container h1{
+  color: white;
+  margin-left: 21rem;
+}
+.container p{
+  color: white;
+  margin-left: 390px;
+}
+body{
+  background-color: black;
+}
+.container button{
+  margin-top:6rem;
+  margin-left: 24rem;
+  width: 15rem;
+  height: 5vh;
+  border-radius: 0.3rem;
+  background-color: rgb(125, 24, 219);
+  color: white;
+  font-size: 1rem;
+  text-transform:uppercase;
+}
