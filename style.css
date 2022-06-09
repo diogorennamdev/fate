@@ -1,44 +1,50 @@
 *{
-  
-}
-
-.container img{
-  width: 19rem;
-  margin-left: 21rem;
-  margin-top: 4rem;
-}
-.container input{
-  width: 23rem;
-  height: 5vh;
-  border-radius:0.6rem;
-  position: absolute;
-  margin-left: 20rem;
-  margin-top: 10px;
-  text-align: center;
-  font-style: oblique;
-  font-size: 1rem;
-  text-transform: uppercase;
-  color:black;
-}
-.container h1{
-  color: white;
-  margin-left: 21rem;
-}
-.container p{
-  color: white;
-  margin-left: 390px;
+  margin: 0%;
 }
 body{
   background-color: black;
-}
-.container button{
-  margin-top:6rem;
-  margin-left: 24rem;
-  width: 15rem;
-  height: 5vh;
-  border-radius: 0.3rem;
-  background-color: rgb(125, 24, 219);
+  text-align: center;
+  font-family:sans-serif;
   color: white;
-  font-size: 1rem;
-  text-transform:uppercase;
+}
+.container{
+  width: 80%;
+  margin-inline: auto;
+  max-width: 400px;
+}
+img{
+  width: 200px;
+  margin-top: 170px;
+}
+
+h1{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  opacity: 0.9;
+}
+p{
+  margin-bottom: 1rem;
+  opacity: 0.6;
+}
+input, button{
+  display: block;
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 4px;
+
+}
+input{
+  margin-bottom: 20px;
+}
+button{
+  width: 111%;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  transition: filter .2s;
+}
+button:hover{
+   filter:brightness(1.2); 
+   cursor:pointer;
 }
