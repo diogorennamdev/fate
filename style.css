@@ -48,3 +48,15 @@ button:hover{
    filter:brightness(1.2); 
    cursor:pointer;
 }
+
+#resposta{
+  margin-top: 26px;
+
+  transform: opacity 1s;
+}
+#resposta div{
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}

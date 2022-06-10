@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+
   <title>Destino</title>
 </head>
 <body>
@@ -13,9 +14,13 @@
     <h1>Vou revelar seu destino!</h1>
     <p>Clique em fazer pergunta para que seu 
       destino seja revelado.</p>
-    <input type="text" placeholder="Digite sua mesagem"/>
-    <button>Fazer Pergunta</button>
-  
+    <input id="inputPergunta" type="text" placeholder="Digite sua mesagem"/>
+    <button onclick="fazerPergunta() ">Fazer Pergunta</button>
+      <h3 id="resposta">
+        <div>Pergunta que fiz  </div>
+        Sim!
+      </h3>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
