@@ -1,5 +1,6 @@
 *{
   margin: 0%;
+  box-sizing: border-box;
 }
 body{
   background-color: black;
@@ -38,7 +39,7 @@ input{
   margin-bottom: 20px;
 }
 button{
-  width: 111%;
+  
   background-color: blueviolet;
   color: white;
   border: none;
